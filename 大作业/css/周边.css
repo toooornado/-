@@ -1,0 +1,232 @@
+.zjy{
+	height:150px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:10px;
+	font-size:48px;
+	font-family:微软雅黑;
+	color:whitesmoke;
+	background: #F3C258;
+	border-right:none;
+	font-style:italic;
+}
+.extra{
+	height:150px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:160px;
+}
+.extra img{
+	height:150px;
+	float:right;
+}
+.shop1{
+	height:800px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:313px;
+	background:#F3C258;
+}
+.shop1 img{
+	height:800px;
+}
+.title1{
+	height:200px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:313px;
+	font-size:36px;
+}
+.text1{
+	height:500px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:513px;
+	font-size:24px;
+}
+.money1{
+	height:100px;
+	width:300px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:1013px;
+	text-align: center;
+	font-size:48px;
+	background:#F3C258;
+	color:whitesmoke;
+}
+.car1{
+	height:100px;
+	width:240px;
+	border:1px solid black;
+	position:absolute;
+	left:1463px;
+	top:1013px;
+	font-size:28px;
+	background:#F3C258;
+	font-family:微软雅黑;
+	text-align: center;
+}
+.car1:hover{
+            background-color: rgb(104, 104, 104);
+            color: #f3c258;
+        }
+.buy1{
+	height:100px;
+	width:240px;
+	border:1px solid black;
+	position:absolute;
+	left:1713px;
+	top:1013px;
+	font-size:28px;
+	background:#F3C258;
+	font-family:微软雅黑;
+	text-align: center;
+}
+.buy1:hover{
+            background-color: rgb(104, 104, 104);
+            color: #f3c258;
+        }
+.guodu1{
+	height:400px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:1113px;
+}
+.shop2{
+	height:800px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:1513px;
+}
+.shop2 img{
+	height:800px;
+}
+.title2{
+	height:200px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:1513px;
+	font-size:36px;
+}
+.text2{
+	height:500px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:1713px;
+	font-size:24px;
+}
+.money2{
+	height:100px;
+	width:300px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:2213px;
+	text-align: center;
+	font-size:48px;
+	background:#F3C258;
+	color:whitesmoke;
+}
+.car2{
+	height:100px;
+	width:240px;
+	border:1px solid black;
+	position:absolute;
+	left:1463px;
+	top:2213px;
+	font-size:28px;
+	background:#F3C258;
+	font-family:微软雅黑;
+	text-align: center;
+}
+.car2:hover{
+	background-color: rgb(104, 104, 104);
+	color: #f3c258;
+}
+.buy2{
+	height:100px;
+	width:240px;
+	border:1px solid black;
+	position:absolute;
+	left:1713px;
+	top:2213px;
+	font-size:28px;
+	background:#F3C258;
+	font-family:微软雅黑;
+	text-align: center;
+}
+.buy2:hover{
+	background-color: rgb(104, 104, 104);
+	color: #f3c258;
+}
+.last{
+	height:200px;
+	width:1602px;
+	background:url(../img/星空背景.jpg);
+	color:#f3c258;
+	text-align:center;
+	font-size:28px;
+	font-family:微软雅黑;
+	font-style:italic;
+	position:absolute;
+	left:350px;
+	top:2313px;
+}
+.lpic{
+	height:900px;
+	width:300px;
+	position:fixed;
+	left:50px;
+	top:306px;
+}
+.lpic img{
+	height:700px;
+	float:right;
+}
+.rpic{
+	height:900px;
+	width:300px;
+	position:fixed;
+	left:1753px;
+	top:566px;
+}
+.rpic img{
+	width:700px;
+	float:left;
+}
+.back{
+	height:60px;
+	width:310px;
+	position:absolute;
+	top:20px;
+}
+.back img{
+	height:60px;
+}
+.audio{
+	height:100px;
+	width:500px;
+	position:absolute;
+	left:0px;
+	top:2613px;
+}

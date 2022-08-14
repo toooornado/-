@@ -1,0 +1,109 @@
+.zjy{
+	height:400px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:10px;
+	font-size:64px;
+	font-family:微软雅黑;
+	color:whitesmoke;
+	background: #F3C258;
+	border-right:none;
+	font-style:italic;
+}
+.pic{
+	height:400px;
+	width:500px;
+	border:1px solid red;
+	position:absolute;
+	left:1450px;
+	top:10px;
+	border-left:none;
+}
+.pic img{
+	height:450px;
+	float:right;
+}
+.text{
+	height:500px;
+	width:800px;
+	border:1px solid black;
+	position:absolute;
+	left:1150px;
+	top:411px;
+	border-left:none;
+	background:whitesmoke;
+	color:#F3C258;
+	font-style:italic;
+	font-family:微软雅黑;
+	font-size:36px;
+}
+.back1{
+	height:600px;
+	width:300px;
+	background:black;
+	position:absolute;
+	left:350px;
+	top:911px;
+}
+.back2{
+	height:600px;
+	width:300px;
+	background:black;
+	position:absolute;
+	left:1653px;
+	top:911px;
+}
+video{
+	height:600px;
+	width:1002px;
+	background:black;
+	position:absolute;
+	left:651px;
+	top:911px;
+}
+.last{
+	height:300px;
+	width:1602px;
+	background:url(../img/星空背景.jpg);
+	color:#f3c258;
+	text-align:center;
+	font-size:28px;
+	font-family:微软雅黑;
+	font-style:italic;
+	position:absolute;
+	left:350px;
+	top:1511px;
+}
+.lpic{
+	height:900px;
+	width:300px;
+	position:fixed;
+	left:100px;
+	top:366px;
+}
+.lpic img{
+	height:800px;
+	float:right;
+}
+.rpic{
+	height:900px;
+	width:300px;
+	position:fixed;
+	left:1553px;
+	top:606px;
+}
+.rpic img{
+	width:800px;
+	float:left;
+}
+.back{
+	height:60px;
+	width:310px;
+	position:absolute;
+	top:20px;
+}
+.back img{
+	height:60px;
+}

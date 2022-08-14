@@ -1,0 +1,136 @@
+.zjy{
+	height:150px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:10px;
+	font-size:64px;
+	font-family:微软雅黑;
+	color:whitesmoke;		
+	background: #F3C258;
+	font-style:italic;
+	text-align:center;
+}
+.pic1{
+	height:600px;
+	width:370px;
+	position:absolute;
+	left:350px;
+	top:160px;
+}
+.pic1 img{
+	height:600px;
+}
+.pic2{
+	height:300px;
+	width:533px;
+	position:absolute;
+	left:720px;
+	top:160px;
+}
+.pic2 img{
+	height:300px;
+}
+.pic3{
+	height:300px;
+	width:533px;
+	position:absolute;
+	left:720px;
+	top:460px;
+}
+.pic3 img{
+	height:300px;
+}
+.last{
+	height:300px;
+	width:1602px;
+	background:url(../img/星空背景.jpg);
+	color:#f3c258;
+	text-align:center;
+	font-size:16px;
+	font-family:微软雅黑;
+	font-style:italic;
+	position:absolute;
+	left:350px;
+	top:759px;
+}
+.enter{
+	height:600px;
+	width:697px;
+	border:1px solid black;
+	position:absolute;
+	left:1253px;
+	top:160px;
+}
+form{
+	width:697px;
+	height:600px;
+	background:rgba(104,104,104,0.1);
+	border-radius:20px;
+	border:1px soid rgba(104,104,104,0.3);
+	position: absolute;
+	}
+p{
+	margin-top:15px;
+	text-align:center;
+}
+p span{
+	width:60px;
+	display:inline-block;
+	text-align:right;
+}
+.num,.pass{
+	width:265px;
+	height:48px;
+	border:1px solid rgba(104,104,104,0.3);
+	padding:2px 2px 2px 22px;
+	border-radius:5px;
+	color:grey;
+}
+h3{
+	text-align:center;
+}
+.btn01{
+	width:265px;
+	height:60px;
+	border-radius:5px;
+	border:2px solid #000;
+	background:#F3C258;
+	color:#FFF;
+	border:none;
+	position: absolute;
+	left:230px;
+}
+
+.back{
+	height:60px;
+	width:310px;
+	position:absolute;
+	top:20px;
+}
+.back img{
+	height:60px;
+}
+.lpic{
+		height:900px;
+		width:300px;
+		position:absolute;
+		left:50px;
+		top:106px;
+}
+.lpic img{
+		height:700px;
+		float:right;
+}
+.rpic{
+		height:900px;
+		width:300px;
+		position:absolute;
+		left:1763px;
+		top:406px;
+}
+.rpic img{
+		width:700px;
+		float:left;
+}

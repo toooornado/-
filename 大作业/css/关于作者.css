@@ -1,0 +1,204 @@
+.zjy{
+	height:100px;
+	width:1600px;
+	border:1px solid black;
+	background:#F3C258;
+	position:absolute;
+	left:350px;
+	top:10px;
+	font-size:36px;
+	color:whitesmoke;
+}
+.simple{
+	height:300px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:110px;
+	font-size:28px;
+	background:#F3C258;
+	color:whitesmoke;
+}
+.background{
+	height:300px;
+	width:1100px;
+	border:1px solid black;
+	position:absolute;
+	left:550px;
+	top:110px;
+}
+.background img{
+	height:300px;
+	float:left;
+}
+.background2{
+	height:300px;
+	width:300px;
+	border:1px solid black;
+	position:absolute;
+	left:1650px;
+	top:110px;
+}
+.background2 img{
+	height:300px;
+}
+.pic1{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:410px;
+	border-bottom: none;
+}
+.pic1 img{
+	height:200px;
+}
+.pic2{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:610px;
+	border-bottom: none;
+	border-top:none;
+}
+.pic2 img{
+	height:200px;
+}
+.pic3{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:810px;
+	border-bottom:none;
+	border-top:none;
+}
+.pic3 img{
+	height:200px;
+}
+.pic4{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:1010px;
+	border-top:none;
+}
+.pic4 img{
+	height:200px;
+}
+.big{
+	height:800px;
+	width:1400px;
+	border:1px solid black;
+	position:absolute;
+	left:550px;
+	top:410px;
+}
+.tupian1{
+	height:350px;
+	width:250px;
+	border:1px solid black;
+	position:absolute;
+	left:50px;
+	top:50px;
+}
+.tupian1 img{
+	height:350px;
+}
+.tupian2{
+	height:350px;
+	width:250px;
+	border:1px solid black;
+	position:absolute;
+	left:320px;
+	top:50px;
+}
+.tupian2 img{
+	height:350px;
+}
+.tupian3{
+	height:340px;
+	width:520px;
+	border:1px solid black;
+	position:absolute;
+	left:50px;
+	top:420px;
+}
+.tupian3 img{
+	height:340px;
+}
+.jiben{
+	height:300px;
+	width:250px;
+	border:1px solid black;
+	position:absolute;
+	left:600px;
+	top:0px;
+	font-size:20px;
+	background:#F3C258;
+	color:whitesmoke;
+}
+.tupian4{
+	height:500px;
+	width:250px;
+	border:1px solid black;
+	position:absolute;
+	left:600px;
+	top:300px;
+}
+.text{
+	height:800px;
+	width:550px;
+	border:1px solid black;
+	position:absolute;
+	left:850px;
+	top:0px;
+	font-size:20px;
+	background:#F3C258;
+	color:whitesmoke;
+}
+.lpic{
+		height:900px;
+		width:300px;
+		position:absolute;
+		left:50px;
+		top:106px;
+}
+.lpic img{
+		height:700px;
+		float:right;
+}
+.rpic{
+		height:900px;
+		width:300px;
+		position:absolute;
+		left:1763px;
+		top:406px;
+}
+.rpic img{
+		width:700px;
+		float:left;
+}
+.back{
+	height:60px;
+	width:310px;
+	position:absolute;
+	top:20px;
+}
+.back img{
+	height:60px;
+}
+.audio{
+	height:100px;
+	width:500px;
+	position:absolute;
+	top:1300px;
+	left:0px;
+}

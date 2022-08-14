@@ -1,0 +1,166 @@
+
+.zjy{
+	height:60px;
+	width:1399px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:10px;
+	background:black;
+	color:#FFFFFF;
+	font-family:微软雅黑;
+	font-size:24px;
+}
+.explain{
+	color:#FFF;
+	font-family:微软雅黑;
+	font-size:16px;
+}
+.self{
+	height:60px;
+	width:200px;
+	border:1px solid black;
+	position:absolute;
+	left:1750px;
+	top:10px;
+	background:navajowhite;
+	font-size:24px;
+	text-align:center;
+}
+.self:hover{
+	background-color: rgb(104, 104, 104);
+	color: #f3c258;
+}
+#beijing1{
+	height:390px;
+	float:left;
+	position:absolute;
+	left:350px;
+	top:-118px;
+}
+.one{
+	height:200px;
+	width:1600px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:71px;
+	text-align:center;
+	font-size:36px;
+	color:grey;
+}
+.one img{
+	height:200px;
+	float:right;
+}
+.first{
+	height:905px;
+	width:533px;
+	border:1px solid black;
+	position:absolute;
+	left:350px;
+	top:272px;
+}
+.second{
+	height:905px;
+	width:533px;
+	border:1px solid black;
+	position:absolute;
+	left:884px;
+	top:272px;
+}
+.third{
+	height:905px;
+	width:533px;
+	border:1px solid black;
+	position:absolute;
+	left:1418px;
+	top:272px;
+}
+.title{
+	height:100px;
+	width:533px;
+	border:1px solid black;
+	text-align:center;
+	font-family:微软雅黑;
+	font-size:32px;
+	color:lavenderblush;
+	background:#F3C258;
+}
+.text{
+	height:200px;
+	width:533px;
+	border:1px solid black;
+	font-family:微软雅黑;
+	font-size:24px;
+	color:lavenderblush;
+	background:#F3C258;
+}
+.tupian{
+	height:600px;
+	width:533px;
+	border:1px solid gray;
+}
+.tupian img{
+	height:600px;
+	width:533px;
+	margin:0 auto;
+}
+.tupian img:hover{
+	height:620px;
+	width:553px;
+	transition-property:width,height;
+	transition-duration: 1s;
+	transition-timing-function:ease-in-out;
+}
+a:link,a:visited{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#f3c258;
+	text-decoration:underline;
+}
+a:active{color:#f3c258;}
+.lpic{
+	height:900px;
+	width:300px;
+	position:absolute;
+	left:50px;
+	top:406px;
+}
+.lpic img{
+	height:700px;
+	float:right;
+}
+.rpic{
+	height:900px;
+	width:300px;
+	position:absolute;
+	left:1723px;
+	top:706px;
+}
+.rpic img{
+	width:700px;
+	float:left;
+}
+.last{
+	height:300px;
+	width:1602px;
+	background:url(../img/星空背景.jpg);
+	color:#f3c258;
+	text-align:center;
+	font-size:28px;
+	font-family:微软雅黑;
+	font-style:italic;
+	position:absolute;
+	left:350px;
+	top:1181px;
+}
+.audio{
+	height:100px;
+	width:500px;
+	position:absolute;
+	left:0px;
+	top:1581px;
+}

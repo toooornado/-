@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			* {
+     			 margin: 0;
+      			padding: 0;
+    			}
+
+    		ul, ol, li {
+      			list-style: none;
+    			}
+			.a{
+		            position: relative;
+		            perspective: 1600px;
+		            top: 350px;
+					left:120px;
+		            display: flex;
+		            align-items: center;
+		        }
+		        .b{
+		            width: 400px;
+		            height: 250px;
+		            position: absolute;
+		            transform-style: preserve-3d;
+		            animation: a 11s infinite cubic-bezier(.7,0,.17,1);
+		        }
+		        .b div{
+		            position: absolute;
+		            background-size: cover;
+		            opacity: .9;
+		            width: 400px;
+		            height: 250px;
+		            transform: rotateY(calc(var(--i)*120deg)) translateZ(115px);
+		        }@keyframes a{
+		            0%{
+		                transform: rotateY(0);
+		            }
+		            33%{
+		                transform: rotateY(-120deg);
+		            }
+		            66%{
+		                transform: rotateY(-240deg);
+		            }
+		            100%{
+		                transform: rotateY(-360deg);
+		            }
+		        
+		        }
+		        .c{
+		            background-image: url(img/1.jpg);
+		        }
+		        .d{
+		            background-image: url(img/2.jpg);
+		        }
+		        .e{
+		            background-image: url(img/3.jpg);
+		        }
+				p{
+					font-size: 10;
+					color: bisque;
+					text-overflow: clip;
+					text-shadow: cornsilk;
+				}
+		    </style>
+		<link href="./css/原神.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="zjy"><span class="first">原魔</span>&nbsp;<span class="second">（版本1.0.0）</span></div>
+		<div class="title"><img src="./img/logo1.png"></div>
+		<div class="extra">游戏正在停服测试阶段，暂时无法登录，请旅行者留心后续公告<img src="img/丘丘人.png"></div>
+		<div class="big">
+		<div class="right"></div>
+		<div id="banner1">
+			<img src="img/1a.png">
+			<img id="im" src="img/mhy1.png">
+		</div>
+		<div id="banner2">
+			<img src="img/2a.png">
+			<img id="im" src="img/mhy2.png">
+		</div>
+		<div id="banner3">
+			<img src="img/3a.png">
+			<img id="im" src="img/mhy3.png">
+		</div>
+		<div class="logo"><img src="img/7A422E3CC56324D4073B3C4235623D59.png"></div>
+		<a href="登陆界面.html"><div class="enter">开&nbsp;始&nbsp;游&nbsp;戏</div></a>
+		<div class="acitivity">
+			<ul class="ul">
+				<li class="active">活动</li>
+				<li>公告</li>
+			</ul>
+			<ol class="ol">
+				<li class="active"><div class="underactivity"><ul>
+					<li>2.4新版本【飞彩镌流年】先行展示页现已开启！</li>
+						</br>
+					<li>【有奖活动】【皑尘与雪影】2.3版本攻略征集...</li>
+				</ul></div></li>
+				<li><div class="underactivity"><ul>
+					<li>2.4版本【飞彩镌流年】内容专题页上线！</li>
+						</br>
+					<li>2.4新版本【飞彩镌流年】先行展示页现已开启！</li>
+				</ul></div></li>
+			</ol>
+		</div>
+		<div class="a">
+			<P></P>
+		    <div class="b">
+		        <div class="c" style="--i:0"></div>
+		        <div class="d" style="--i:1"></div>
+		        <div class="e" style="--i:2"></div>
+		    </div>
+		</div>
+		</div>
+		<div class="lpic"><img src="img/lpic.png"></div>
+		<div class="rpic"><img src="img/rpic.png"></div>
+		<div class="last">警告：游戏前详阅
+			</br>有极少数的人在观看一些视觉影像时可能会突然癫痫发作，这些影像包括电子游戏中出现的闪光或图形。
+			</br>在进行电子游戏时，这些人可能会出现癫痫症状。甚至连不具有癫痫史的人，也可能在进行电子游戏时，
+			</br>出现类似癫痫症状。如果您或您的家人有癫痫史，请在进行游戏之前先于医生咨询。如果您在游玩电子游
+			</br>戏时出现以下症状，包括眼睛疼痛、视觉异常、偏头痛、痉挛或意识障碍（诸如昏迷）等，请立即终止游戏，
+			</br>并且请您于再次进行本游戏之前咨询您的医生。
+			</br>
+			</br>除上述症状外，当您感到头痛、头晕眼花、恶心想吐或类似晕车症状时，以及当身体的某些部位感到不舒
+			</br>服或疼痛时。请立即中止游戏。若在中止游戏后，症状仍没有减退，请立即寻求医生的诊疗。
+		</div>
+		<a href="首页.html"><div class="back"><img src="img/返回.png"></div></a>
+		<div class="audio"><audio src="audio/听书人.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio></div>
+		<script>
+
+			var btns = document.querySelectorAll('.ul > li')
+			var tabs = document.querySelectorAll('.ol > li')
+		
+
+			btns.forEach(function (item, index) {
+		
+			  item.onclick = function () {
+		
+
+				btns.forEach(function (t, i) {
+				  t.className = ''
+				  tabs[i].className = ''
+				})
+		
+
+				item.className = 'active'
+				tabs[index].className = 'active'
+		
+			  }
+		
+			})
+		
+		  </script>
+	</body>
+</html>

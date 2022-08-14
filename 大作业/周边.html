@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/周边.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="zjy">Arknights与原神所推出游戏周边现已上线</div>
+		<div class="extra"><img src="img/丘丘人.png"><img src="img/派蒙.png"></div>
+		<div class="shop1"><img src="img/shop1.jpg"></div>
+		<div class="title1"></br>【原神/定金】刻晴·霆霓快雨Ver.1/7手办</div>
+		<div class="text1"></br></br>原神二周年特典商品，附赠【飞彩镌流年】系列海报与明信片，</br></br>原版手办，不会对雷史莱姆免疫。</br></br>同系列的还有凝光可莉的手办记得关注哦</br></br>（注意此次为定金，待手办出荷公布补款，大概全款988CNY</div>
+		<div class="money1">160CNY</div>
+		<div class="car1"></br>加入购物车</div>
+		<div class="buy1"></br>购买</div>
+		<div class="guodu1"><img src="./img/guodu1.jpg"></div>
+		<div class="shop2"><img src="img/shop2.jpg"></div>
+		<div class="title2">【明日方舟】实体周边套装《明日方舟官方美术设定集VOL.1》官方正版（绝不渗水！）</div>
+		<div class="text2"></br></br>官方正版美术设定集，环泰拉大陆及提瓦特大陆发行</br></br>附赠可种植绿植，博士ID卡及阿米娅特制公交卡</br></br>特典附赠阿米娅游戏内时装兑换码</br></br>官方保证绝不渗水！绝不渗水！绝不渗水！</div>
+		<div class="money2">259CNY</div>
+		<div class="car2"></br>加入购物车</div>
+		<div class="buy2"></br>购买</div>
+		<div class="last">抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当，适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活</br>该页内容皆为虚构，如有相似，纯属巧合</div>
+		<div class="lpic"><img src="img/lpic.png"></div>
+		<div class="rpic"><img src="img/rpic.png"></div>
+		<a href="首页.html"><div class="back"><img src="img/返回.png"></div></a>
+		<div class="audio"><audio src="audio/春弦.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio></div><div class="header">已经到顶啦</div>
+		<div class="goTop"> <img src="img/回到顶部.png"></div>
+		<script>
+			
+			var header = document.querySelector('.header')
+			var goTop = document.querySelector('.goTop')
+		
+			
+			window.onscroll = function () {
+			 
+			  var height = document.documentElement.scrollTop || document.body.scrollTop
+		
+			  if (height >= 300) {
+				
+				header.style.top = '0px'
+				goTop.style.display = 'block'
+			  } else {
+				
+				header.style.top = '-80px'
+				goTop.style.display = 'none'
+			  }
+			}
+		
+			goTop.onclick = function () {
+		
+			  window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			  })
+			}
+		  </script>
+	</body>
+</html>

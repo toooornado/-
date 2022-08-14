@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/登录界面.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="zjy">原魔MHY登录</div>
+		<div class="pic1"><img src="img/原魔1.png"></div>
+		<div class="pic2"><img src="img/1.jpg"></div>
+		<div class="pic3"><img src="img/pic3.jpg"></div>
+		<div class="last">警告：游戏前详阅
+			</br>有极少数的人在观看一些视觉影像时可能会突然癫痫发作，这些影像包括电子游戏中出现的闪光或图形。
+			</br>在进行电子游戏时，这些人可能会出现癫痫症状。甚至连不具有癫痫史的人，也可能在进行电子游戏时，
+			</br>出现类似癫痫症状。如果您或您的家人有癫痫史，请在进行游戏之前先于医生咨询。如果您在游玩电子游
+			</br>戏时出现以下症状，包括眼睛疼痛、视觉异常、偏头痛、痉挛或意识障碍（诸如昏迷）等，请立即终止游戏，
+			</br>并且请您于再次进行本游戏之前咨询您的医生。
+			</br>
+			</br>除上述症状外，当您感到头痛、头晕眼花、恶心想吐或类似晕车症状时，以及当身体的某些部位感到不舒
+			</br>服或疼痛时。请立即中止游戏。若在中止游戏后，症状仍没有减退，请立即寻求医生的诊疗。
+		</div>
+		<div class="enter">		
+		<form action="#" method="post">
+			<h3></br></br>MHY账号登录</h3>
+			<p>
+				<span>账号：</span>
+				<input class="username" type="text" >
+			</p>
+			<p>
+				<span>密码：</span>
+				<input class="password" type="password" >
+			</p>
+			<p>
+				<button class="btn01">登录</button>
+
+			</p>
+		</form>
+		</div>
+		<a href="原神.html"><div class="back"><img src="img/返回.png"></div></a>
+		<div class="lpic"><img src="img/lpic.png"></div>
+		<div class="rpic"><img src="img/rpic.png"></div>
+		<script>
+	
+			var loginForm = document.querySelector('form')
+
+			var nameInp = document.querySelector('.username')
+
+			var pwdInp = document.querySelector('.password')
+
+			loginForm.onsubmit = function (e) {
+
+			  e.preventDefault()
+
+			  var name = nameInp.value
+			  var pwd = pwdInp.value
+		
+
+			  if (!name || !pwd) return alert('请输入账号或密码！')
+		
+	
+			  var xhr = new XMLHttpRequest()
+			  xhr.open('POST', '#', true)
+			  xhr.onload = function () {
+
+				var res = JSON.parse(xhr.responseText)
+				console.log(res)
+		
+	
+				if (res.code === 0) {
+
+				  window.alert("账号或密码错误")
+				} else {
+				  window.alert("登录成功")
+				  window.location.href = './home.html'
+				}
+			  }
+
+			  xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded')
+		
+
+			  xhr.send('username=' + name + '&password=' + pwd)
+			}
+		
+		  </script>
+	</body>
+</html>
